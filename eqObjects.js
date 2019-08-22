@@ -23,6 +23,16 @@ const eqArrays = function(arr, arr2) {
     return true;
 };
 
+// FUNCTION IMPLEMENTATION
+const assertObjectsEqual = function(actual, expected) {
+    if (eqObjects(object1, object2)) {
+        console.log("The objects match");
+    } else {
+        console.log("The objects dont match");
+    }
+};
+
+
 
 
 
@@ -56,18 +66,18 @@ const eqObjects = function(object1, object2) {
 
 const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
-assertEqual(eqObjects(ab, ba), true); // => true
+assertObjectsEqual(ab, ba); // => true
 
 const abc = { a: "1", b: "2", c: "3" };
-assertEqual(eqObjects(ab, abc), false); // => false
+assertObjectsEqual(ab, abc); // => false
 
 
 const cd = { c: "1", d: ["2", 3] }; 
 const dc = { d: ["2", 3], c: "1" };
-assertEqual(eqObjects(cd, dc), true); // => true
+assertObjectsEqual(cd, dc); // => true
 
 const cd2 = { c: "1", d: ["2", 3, 4] };
-assertEqual(eqObjects(cd, cd2), false); // => false
+assertObjectsEqual(cd, cd2); // => false
 
 
 
