@@ -42,5 +42,5 @@ const results2 = map(words, word => word[word.length-1])
 
 assertArraysEqual(results1, ['g', 'c', 't', 'm', 't']);
 assertArraysEqual(results1, ['g', 'c', 't', 'm']);
-assertArraysEqual(results1, ['d', 'l', 'o', 'r', 'm']);
+assertArraysEqual(results2, ['d', 'l', 'o', 'r', 'm']);
 
