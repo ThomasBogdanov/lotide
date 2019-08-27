@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@thomasbogdanov/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini project mimicing lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/ThomasBogdanov/lotide.git"
   },
-  "author": "",
+  "author": "Thomas Bogdanov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ThomasBogdanov/lotide/issues"

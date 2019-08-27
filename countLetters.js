@@ -22,8 +22,8 @@ const countLetters = function(string) {
     return results;
 };
 
-const results1 = countLetters("Hello world");
-assertEqual(results1["l"], 3);
+// const results1 = countLetters("Hello world");
+// assertEqual(results1["l"], 3);
 
-
+module.exports = countLetters;
 

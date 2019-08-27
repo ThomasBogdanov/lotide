@@ -46,8 +46,10 @@ const letterPositions = function(sentence) {
 
 const results1 = letterPositions("hello");
 
-assertEqual(eqArrays(results1['h'],[0]), true); // => should PASS
-assertEqual(eqArrays(results1['e'],[1]), true); // => should PASS
-assertEqual(eqArrays(results1['l'],[2,3]), true); // => should PASS
-assertEqual(eqArrays(results1['o'],[4]), true); // => should PASS
+module.exports = letterPositions;
+
+// assertEqual(eqArrays(results1['h'],[0]), true); // => should PASS
+// assertEqual(eqArrays(results1['e'],[1]), true); // => should PASS
+// assertEqual(eqArrays(results1['l'],[2,3]), true); // => should PASS
+// assertEqual(eqArrays(results1['o'],[4]), true); // => should PASS
 
